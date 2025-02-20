@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+
+html {
+    background:rgb(22, 87, 100);
+}
+
+body {
+    background: rgba(81, 167, 185, 0.834);
+}
+
+/* -------------------Navigation-Menu-Style-------------------------- */
+
+ul.nav {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+    
+}
+
+ul.nav > li {
+    background-color: black;
+    display:inline-block;
+    padding: 2pt 2pt 2pt 2pt;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 1pt;
+    margin-left: 1pt;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: rgb(34, 130, 149);
+    color: black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+a:hover{
+    color:#474545;
+}
+
+/* -------------------Heading-Styles-------------------------- */
+
+h1 {
+    background-color:rgb(34, 130, 149);
+    font-size: 80px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+h2 {
+    background-color: rgb(122, 167, 175);
+    font-size: 30px;
+    text-align: center;
+    padding-bottom:  2pt;
+    padding-top: 2pt;
+}
+
+/* -------------------Image-Style-------------------------- */
+
+img {
+    background-color: rgb(0, 0, 0);
+    padding-top: 10pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25pt;
+    padding: 3pt;
+}
+
+/* -------------------Caption-Style-------------------------- */
+
+figure {
+    background-color: rgb(122, 167, 175);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+    font-weight: bold;
+    padding: 10px 50px;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+}
+
+/* -------------------Paragraph-Style-------------------------- */
+p {
+    background-color: rgb(160, 209, 218);
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 1.7em;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 5pt;  
+    padding-top: 5pt;
+    margin-bottom: 15pt;
+    margin-top: 15pt;
+}
+
+/* -------------------Section-Boxes-------------------------- */
+section {background-color: rgb(44, 115, 129);
+    min-width: 100pt;
+    padding-top: 3pt;
+    padding-bottom: 1pt;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    margin-right: 80pt;
+    margin-left: 80pt;
+    margin-bottom: 30pt;
+    margin-top: 30pt;
+}
+/* -------------------Table-Style-------------------------- */
+table, th, td {
+    background-color:rgb(44, 115, 129) ;
+    padding: 10pt 3pt 10pt 5pt;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bolder;
+}
+
+td {
+    background-color: rgb(160, 209, 218);
+    font-size: 20px;
+    text-align: left;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    padding: 2pt 45pt 2pt 6pt;
+}
+
+/* -------------------List style-------------------------- */
+
+ul > li {
+    background-color: rgb(44, 115, 129);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-position: inside;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14pt;
+    padding-top: 12pt;
+    padding-bottom: 12pt;
+}
